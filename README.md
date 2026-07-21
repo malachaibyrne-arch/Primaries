@@ -7,10 +7,10 @@ Primary and High Accomplishment projects... Usually with significant real world 
      1.1: Linux Users -
 
          1.1.1: OPTION A - Retrive Entire repo's files: (Recommended)
-                         - curl -L -o repo.zip https://github.com/malachaibyrne-arch/Primaries/archive/refs/heads/main.zip && unzip repo.zip  ( <-- Copy this)
+                         - curl -L -o repo.zip [https://github.com/malachaibyrne-arch/Primaries.git](https://github.com/malachaibyrne-arch/Primaries.git)  ( <-- Copy this)
 
          1.1.2: OPTION B - Retrive an individual File: (Not Recommended)
-                         - curl -o Deadrop-S.py https://raw.githubusercontent.com/malachaibyrne-arch/Primaries/main/Deadrop-S.py  ( <-- Copy this)
+                         - curl -o Deadrop-S.py [https://raw.githubusercontent.com/malachaibyrne-arch/Primaries.git/Deadrop-S.py](https://github.com/malachaibyrne-arch/Primaries.git/Deadrop-S.py)  ( <-- Copy this)
                                        ^                                                                                ^
                                        |                                                                                |
                                        |                                                                      (Name of file you want)
@@ -19,12 +19,12 @@ Primary and High Accomplishment projects... Usually with significant real world 
                         
      2.1: Windows Users -
          2.1.1: OPTION A - Windows cmd.exe Webrequest path: (Single File)
-                         - Invoke-WebRequest -Uri "https://raw.githubusercontent.com/malachaibyrne-arch/Primaries/main/Deadrop-S.py" -OutFile "Deadrop-S.py"  ( <-- Copy this)
+                         - Invoke-WebRequest -Uri "https://raw.githubusercontent.com/malachaibyrne-arch/Primaries.git/Deadrop-S.py" "https://github.com/malachaibyrne-arch/Primaries.git/Deadrop-S.py" -OutFile "Deadrop-S.py"  ( <-- Copy this)
                                                                                                       (Use Filename here ^^^ )    (Use Filename here ^^^ )
                                                                                                                                                      
          2.1.2: OPTION B - Windows cmd.exe Webrequest path: (Whole Repository Downloaded + Extracted) (Recommended)
-                         - Invoke-WebRequest -Uri "https://github.com/malachaibyrne-arch/Primaries/archive/refs/heads/main.zip" -OutFile "repo.zip"; Expand-Archive -Path "repo.zip" -DestinationPath "." -Force  ( <-- Copy this)
-                                                                                                                                              (e.g. C:\Users\Admin\Downloads\Repositories  ^^^^)
+                         - Invoke-WebRequest -Uri "https://github.com/malachaibyrne-arch/Primaries/" -OutFile "repo.zip"; Expand-Archive -Path "repo.zip" -DestinationPath "." -Force  ( <-- Copy this)
+                                                                                                                  (e.g. C:\Users\Admin\Downloads\Repositories  ^^^^)
                                                                                                                                               
 3.  Back-End Package Dependencies
 
